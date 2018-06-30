@@ -1,0 +1,50 @@
+
+.Form-Container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    top:0;
+    margin-left:40%;
+    margin-top: 14px;
+
+  }
+ .searchtext{
+     /* font-size: 0.8em;
+     width: 190px;
+     outline: none; */
+     background: transparent;
+  border: 0;
+  border-bottom: solid 2px #2c3e50;
+  margin-right: 10px;
+  letter-spacing: 2px;
+  width: 50%;
+  padding: 0.4rem;
+ } 
+
+
+ .query button{
+     /* font-size: 0.8em;
+     border: none;
+     height: 30px; */
+     border: solid 2px #e74c3c;
+  background: transparent;
+  padding: 0.2rem 0.9rem;
+  margin: 0 0.2rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-left: 0.7rem;
+ }
+
+ .searchtext:hover
+ {
+    border: solid 1px #ffd4cae8;
+    border-bottom: solid 2px #2c3e50;
+ }
+.time{
+    color:white;
+    float: left;
+}
